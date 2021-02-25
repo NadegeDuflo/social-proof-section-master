@@ -14,37 +14,52 @@
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+
   </head>
   <body>
     <div class="flexContainer">
 
       <div class="informations">
         <h1 class="title">10,000+ of our users love our products.</h1>
-        <p>We only provide great products combined with excellent customer service.
+        <p class="info">We only provide great products combined with excellent customer service.
           See what our satisfied customers are saying about our services.</p>
       </div>
 
       <div class="starsContainer">
         <div class="stars">
-          <div class="starsImg"></div>
+          <div class="starsImg">
+            <ul>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+            </ul>
+          </div>
           <p class="starsComment">Rated 5 Stars in Reviews</p>
         </div>
         <div class="stars">
-          <div class="starsImg"></div>
+          <div class="starsImg">
+            <ul>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+            </ul>
+          </div>
           <p class="starsComment">Rated 5 Stars in Report Guru</p>
         </div>
         <div class="stars">
-          <div class="starsImg"></div>
+          <div class="starsImg">
+            <ul>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+              <li><img src="/images/icon-star.svg" alt=""></li>
+            </ul>
+          </div>
           <p class="starsComment">Rated 5 Stars in BestTech</p>
         </div>
       </div>
@@ -52,21 +67,35 @@
       <div class="cardContainer">
         
         <div class="card">
-        <h2>Colton Smith</h2>
-        <p class="check_buyer">Verified Buyer</p>
-        <p class="comment">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time.
-          Excellent!"</p>
-      </div>
+          <div class="topCard">
+            <div class="imgPortrait perso1"></div>
+            <div class="infoBuyer">
+              <h2>Colton Smith</h2>
+              <p class="checkBuyer">Verified Buyer</p>
+            </div>
+          </div>
+          <p class="comment">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+        </div>
         
         <div class="card">
-        <h2>Irene Roberts </h2>
-        <p class="check_buyer">Verified Buyer</p>
-        <p class="comment">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
-      </div>
-  
+          <div class="topCard">
+            <div class="imgPortrait perso2"></div>
+            <div class="infoBuyer">
+              <h2>Irene Roberts </h2>
+              <p class="checkBuyer">Verified Buyer</p>
+            </div>
+          </div>    
+          <p class="comment">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </div>
+
         <div class="card">
-        <h2>Anne Wallace</h2> 
-        <p class="check_buyer">Verified Buyer</p>
+          <div class="topCard">
+            <div class="imgPortrait perso3"></div>
+            <div class="infoBuyer">
+              <h2>Anne Wallace</h2> 
+              <p class="checkBuyer">Verified Buyer</p>
+            </div>
+          </div>
         <p class="comment">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
       </div>
     </div>
@@ -74,7 +103,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Nadège Duflo</a>.
     </div>
   </body>
 </html>
