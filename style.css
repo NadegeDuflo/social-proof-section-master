@@ -103,6 +103,8 @@ li{
     padding: 30px;
     border-radius: 7px;
     color: white;
+    font-weight: 500;
+    text-align:initial;
 }
 .card:nth-child(2){
     margin-top: 50px;;
@@ -149,7 +151,7 @@ li{
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
     color: var(--neutral1);
   }
@@ -159,10 +161,72 @@ li{
 
 @media only screen and (max-width: 375px) {
 
-    .card{
-        flex-direction: column;        
-    }
     .flexContainer{
-        flex-wrap:initial
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
+    .informations{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 20px;
+        
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .info{
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .starsContainer{
+        width:100%;
+        
+    }
+    .stars{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .starsImg{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .starsComment{
+        display: block;
+        width: 100%;
+        line-height: 30px;
+    }
+    .stars:nth-child(2), .stars:nth-child(3){
+        margin-left: auto;
+    }
+ 
+    .cardContainer{
+        flex-direction: column;
+        margin-top: 40px;        
+    }
+
+    .card{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .card:nth-child(2),.card:nth-child(3){
+        margin-top: 10px;
+    }
+    .attribution {
+        font-size: 1rem;
+        
+    }
+    .attribution a{
+        font-size: 1.2rem;
+
+    }
+
 }
