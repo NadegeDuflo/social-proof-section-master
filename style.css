@@ -24,6 +24,8 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: white;
+    background: url(/images/bg-pattern-top-desktop.svg) no-repeat, url(/images/bg-pattern-bottom-desktop.svg) no-repeat  ;
+    background-position: 0 0, 80% 130%;
 }
 
 .flexContainer{
@@ -31,21 +33,24 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 110px;
+    width: 90%;
     
 }
 .informations{
-    width: 40%;
+    width: 50%;
     padding: 0 50px 0 0;
     margin-bottom: 30px;
 }
 h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
     color: var(--background-color);
     margin-bottom: 20px;
 }
 .info{
-    color: var(--neutral1)
+    color: var(--neutral1);
+    line-height: 30px;
 }
 
 .starsContainer{
@@ -89,6 +94,7 @@ li{
 }
 
 .cardContainer{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,21 +102,23 @@ li{
 }
 
 .card{
-    width: 370px;
+    width: 400px;
     height:250px;
     background: var(--background-color);
-    margin-left: 25px;
-    padding: 30px;
+    margin: 0;
+    padding: 40px 30px;
     border-radius: 7px;
     color: white;
     font-weight: 500;
     text-align:initial;
 }
 .card:nth-child(2){
-    margin-top: 50px;;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .card:nth-child(3){
     margin-top: 100px;
+    margin-left: 30px;
 }
 .topCard{
     display: flex;
